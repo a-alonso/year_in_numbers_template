@@ -4,7 +4,8 @@
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <meta name="viewport" content="width=device-width">
-    <title>Title</title>
+    <title>2017 en números</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
     <style>
       .wrapper {
   width: 100%; }
@@ -835,7 +836,7 @@ td,
 th,
 a {
   color: #0a0a0a;
-  font-family: Helvetica, Arial, sans-serif;
+  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
   font-weight: normal;
   padding: 0;
   margin: 0;
@@ -851,7 +852,7 @@ h5,
 h6 {
   color: inherit;
   word-wrap: normal;
-  font-family: Helvetica, Arial, sans-serif;
+  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
   font-weight: normal;
   margin-bottom: 10px;
   Margin-bottom: 10px; }
@@ -980,7 +981,7 @@ table.button {
     background: #2199e8;
     border: 2px solid #2199e8; }
     table.button table td a {
-      font-family: Helvetica, Arial, sans-serif;
+      font-family: 'Open Sans', Helvetica, Arial, sans-serif;
       font-size: 16px;
       font-weight: bold;
       color: #fefefe;
@@ -1354,8 +1355,8 @@ body.outlook p {
     table.button.small-expand center,
     table.button.small-expanded center {
       min-width: 0; } }
-    
-    </style>  
+
+    </style>
 
     <style>
       body,
@@ -1363,7 +1364,38 @@ body.outlook p {
       .body {
         background: #f3f3f3 !important;
       }
-    </style>  
+    </style>
+    <style type="text/css">
+      /*Font setting*/
+      @media screen {
+         @font-face{
+             font-family:'Open Sans';
+             font-style:normal;
+             font-weight:400;
+             src:local('Open Sans'), local('OpenSans'), url('http://fonts.gstatic.com/s/opensans/v10/cJZKeOuBrn4kERxqtaUH3bO3LdcAZYWl9Si6vvxL-qU.woff') format('woff');
+         }
+      }
+      /*Wings setting*/
+      .wing{
+        background-color: #3fbde1;
+        padding: 5%;
+      }
+      .wing.right{
+        border-radius: 0% 5% 90% 0%;
+        border-left: 1px solid #fff;
+      }
+      .wing.left{
+        border-radius: 5% 0% 0% 90%;
+        border-right: 1px solid #fff;
+      }
+      .wing.primary{
+        background-color: #3fbde1;
+      }
+      .wing.level-1{
+        max-width:90%;
+      }
+
+    </style>
 
   </head>
 
@@ -1437,6 +1469,36 @@ body.outlook p {
                                   <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur pariatur unde magni repudiandae totam, accusamus facere eligendi. Ad nobis eius porro saepe et ab, aliquid, sed mollitia cumque suscipit aperiam.</p>
                                 </th>
                                 <th class="expander"></th>
+                              </tr>
+                            </table>
+                          </th>
+                        </tr>
+                      </tbody>
+                    </table>
+                    <table class = 'row collapse'>
+                      <tbody>
+                        <tr>
+                          <th class='small-6 large-6 columns first'>
+                            <table>
+                              <tr>
+                                <th>
+                                  <div class = 'wing level-1 left primary'>
+                                    <h2 class="text-right">300</h2>
+                                    <p class="text-right"> laufe</p>
+                                  </div>
+                                </th>
+                              </tr>
+                            </table>
+                          </th>
+                          <th class='small-6 large-6 columns'>
+                            <table>
+                              <tr>
+                                <th>
+                                  <div class = 'wing level-1 right primary'>
+                                    <h2 class="text-left">1950</h2>
+                                    <p class="text-left">leute</p>
+                                  </div>
+                                </th>
                               </tr>
                             </table>
                           </th>
