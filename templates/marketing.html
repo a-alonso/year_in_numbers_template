@@ -5,7 +5,7 @@
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <meta name="viewport" content="width=device-width">
     <title>2017 en números</title>
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400" rel="stylesheet">
     <style>
       .wrapper {
   width: 100%; }
@@ -853,15 +853,17 @@ h6 {
   color: inherit;
   word-wrap: normal;
   font-family: 'Open Sans', Helvetica, Arial, sans-serif;
-  font-weight: normal;
+  font-weight: 300;
   margin-bottom: 10px;
   Margin-bottom: 10px; }
 
 h1 {
-  font-size: 34px; }
+  font-size: 42px;
+  font-weight: 300;}
 
 h2 {
-  font-size: 30px; }
+  font-size: 30px;
+  font-weight: 300; }
 
 h3 {
   font-size: 28px; }
@@ -880,7 +882,7 @@ table.body,
 p,
 td,
 th {
-  font-size: 16px;
+  font-size: 14px;
   line-height: 1.3; }
 
 p {
@@ -1372,29 +1374,78 @@ body.outlook p {
              font-family:'Open Sans';
              font-style:normal;
              font-weight:400;
+             font-weight:300;
              src:local('Open Sans'), local('OpenSans'), url('http://fonts.gstatic.com/s/opensans/v10/cJZKeOuBrn4kERxqtaUH3bO3LdcAZYWl9Si6vvxL-qU.woff') format('woff');
          }
       }
       /*Wings setting*/
+      .wing-image{
+        width:40%;
+        display:inline;
+      }
+      .wing-image-cointaner{
+        background-color:#fff;
+        border-radius:50%;
+      }
+      .text-white {
+        color:#fff;
+      }
       .wing{
-        background-color: #3fbde1;
         padding: 5%;
+        border-bottom: 5px solid;
       }
       .wing.right{
-        border-radius: 0% 5% 90% 0%;
-        border-left: 1px solid #fff;
+        border-radius: 0% 3% 90% 0%;
+        border-left: 4px solid #fff;
       }
       .wing.left{
-        border-radius: 5% 0% 0% 90%;
-        border-right: 1px solid #fff;
+        border-radius: 3% 0% 0% 90%;
+        border-right: 4px solid #fff;
       }
       .wing.primary{
         background-color: #3fbde1;
+        border-color:#248BA8;
+      }
+      .wing.dark {
+        background-color: #28292D;
+        border-color: #1D1D21;
+      }
+      .wing.secondary{
+        background-color: #666A77;
+        border-color: #585C6D;
+      }
+      .wing.light{
+        background-color: #A6A8B1;
+        border-color: #91949F;
+      }
+      .wing.level-1_l{
+        margin-left:5%;
       }
       .wing.level-1{
-        max-width:90%;
+        margin-right:5%;
       }
-
+      .wing.level-2{
+        margin-right:15%;
+      }
+      .wing.level-2_l{
+        margin-left:15%;
+      }
+      .wing.level-3{
+        margin-right:30%;
+      }
+      .wing.level-3_l{
+        margin-left:30%;
+      }
+      .wing.level-4{
+        margin-right:50%;
+      }
+      .wing.level-4_l{
+        margin-left:50%;
+      }
+      /*Hacks*/
+      .no-padding{
+        padding-bottom: 0 !important;
+      }
     </style>
 
   </head>
@@ -1405,52 +1456,10 @@ body.outlook p {
       <tr>
         <td class="float-center" align="center" valign="top">
           <center data-parsed="">
-            <table class="spacer float-center">
-              <tbody>
-                <tr>
-                  <td height="16px" style="font-size:16px;line-height:16px;">&#xA0;</td>
-                </tr>
-              </tbody>
-            </table>
             <table align="center" class="container float-center">
               <tbody>
                 <tr>
                   <td>
-                    <table class="row">
-                      <tbody>
-                        <tr>
-                          <th class="small-12 large-4 columns first">
-                            <table>
-                              <tr>
-                                <th>
-                                  <center data-parsed=""> <img src="http://placehold.it/125x200" align="center" class="float-center"> </center>
-                                </th>
-                              </tr>
-                            </table>
-                          </th>
-                          <th class="small-12 large-8 columns last">
-                            <table>
-                              <tr>
-                                <th>
-                                  <h1>Do Something Radical With This App.</h1>
-                                  <table class="button large">
-                                    <tr>
-                                      <td>
-                                        <table>
-                                          <tr>
-                                            <td><a href="#">Sign Up</a></td>
-                                          </tr>
-                                        </table>
-                                      </td>
-                                    </tr>
-                                  </table>
-                                </th>
-                              </tr>
-                            </table>
-                          </th>
-                        </tr>
-                      </tbody>
-                    </table>
                     <table class="spacer">
                       <tbody>
                         <tr>
@@ -1465,8 +1474,9 @@ body.outlook p {
                             <table>
                               <tr>
                                 <th>
-                                  <h3 class="text-center">It's Never Been Easier to Do Things.</h3>
-                                  <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur pariatur unde magni repudiandae totam, accusamus facere eligendi. Ad nobis eius porro saepe et ab, aliquid, sed mollitia cumque suscipit aperiam.</p>
+                                  <h1 class="text-center">2017 en resultados</h1>
+                                  <p class="text-center">Queremos compartirte lo que hemos logrado gracias a tu compromiso con la formalización de trabajo en 🇨🇴 &nbsp;Colombia 🇨🇴
+                                    <br/> ¡Esperamos multiplicar nuestro impacto el próximo año de tu mano como ha sido hasta ahora!</p>
                                 </th>
                                 <th class="expander"></th>
                               </tr>
@@ -1478,25 +1488,35 @@ body.outlook p {
                     <table class = 'row collapse'>
                       <tbody>
                         <tr>
-                          <th class='small-6 large-6 columns first'>
+                          <th class='small-12 large-6 columns first no-padding'>
                             <table>
                               <tr>
                                 <th>
-                                  <div class = 'wing level-1 left primary'>
-                                    <h2 class="text-right">300</h2>
-                                    <p class="text-right"> laufe</p>
+                                  <div class = 'wing level-1_l left primary'>
+                                      <table>
+                                        <tr>
+                                          <th class="small-3 large-4 columns first no-padding"><p class="text-right"><span class="wing-image-cointaner"><img src="https://image.flaticon.com/icons/svg/418/418812.svg" alt="" class='wing-image'/></span></p></th>
+                                          <th class="small-9 large-8 columns no-padding"><h1 class="text-right text-white">610</h1></th>
+                                        </tr>
+                                      </table>
+                                    <p class="text-right text-white"> empleos formales <br/></p>
                                   </div>
                                 </th>
                               </tr>
                             </table>
                           </th>
-                          <th class='small-6 large-6 columns'>
+                          <th class='small-12 large-6 columns no-padding'>
                             <table>
                               <tr>
                                 <th>
-                                  <div class = 'wing level-1 right primary'>
-                                    <h2 class="text-left">1950</h2>
-                                    <p class="text-left">leute</p>
+                                  <div class = 'wing level-1 right dark'>
+                                      <table>
+                                        <tr>
+                                          <th class="small-9 large-8 columns no-padding"><h1 class="text-left text-white">1,950</h1></th>
+                                          <th class="small-3 large-4 columns first no-padding"><p class="text-left"><span class="wing-image-cointaner"><img src="https://image.flaticon.com/icons/svg/625/625519.svg" alt="" class='wing-image'/></span></p></th>
+                                        </tr>
+                                      </table>
+                                    <p class="text-left text-white"> personas impactadas  <br/></p>
                                   </div>
                                 </th>
                               </tr>
@@ -1505,38 +1525,40 @@ body.outlook p {
                         </tr>
                       </tbody>
                     </table>
-                    <table class="row">
+                    <!-- Second row of data -->
+                    <table class = 'row collapse'>
                       <tbody>
                         <tr>
-                          <th class="small-12 large-4 columns first">
+                          <th class='small-12 large-6 columns no-padding first'>
                             <table>
                               <tr>
                                 <th>
-                                  <center data-parsed=""> <img src="http://placehold.it/50x50" align="center" class="float-center"> </center>
-                                  <h5 class="text-center">Feature One</h5>
-                                  <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum, quod quam unde earum.</p>
+                                  <div class = 'wing level-2_l left light'>
+                                      <table>
+                                        <tr>
+                                          <th class="small-3 large-4 columns first no-padding"><p class="text-right"><span class="wing-image-cointaner"><img src="https://image.flaticon.com/icons/svg/645/645713.svg" alt="" class='wing-image'/></span></p></th>
+                                          <th class="small-9 large-8 columns no-padding"><h2 class="text-right text-white">$82 M</h2></th>
+                                        </tr>
+                                      </table>
+                                    <p class="text-right text-white"> pagado en <br/>seguridad social</p>
+                                  </div>
                                 </th>
                               </tr>
                             </table>
                           </th>
-                          <th class="small-12 large-4 columns">
+                          <th class='small-12 large-6 columns no-padding '>
                             <table>
                               <tr>
                                 <th>
-                                  <center data-parsed=""> <img src="http://placehold.it/50x50" align="center" class="float-center"> </center>
-                                  <h5 class="text-center">Feature Two</h5>
-                                  <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum, quod quam unde earum.</p>
-                                </th>
-                              </tr>
-                            </table>
-                          </th>
-                          <th class="small-12 large-4 columns last">
-                            <table>
-                              <tr>
-                                <th>
-                                  <center data-parsed=""> <img src="http://placehold.it/50x50" align="center" class="float-center"> </center>
-                                  <h5 class="text-center">Feature Three</h5>
-                                  <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum, quod quam unde earum.</p>
+                                  <div class = 'wing level-2 right secondary'>
+                                      <table>
+                                        <tr>
+                                          <th class="small-9 large-8 columns no-padding"><h2 class="text-left text-white">150</h2></th>
+                                          <th class="small-3 large-4 columns first no-padding"><p class="text-left"><span class="wing-image-cointaner"><img src="https://image.flaticon.com/icons/svg/649/649001.svg" alt="" class='wing-image'/></span></p></th>
+                                        </tr>
+                                      </table>
+                                    <p class="text-left text-white">préstamos <br/>entregados</p>
+                                  </div>
                                 </th>
                               </tr>
                             </table>
@@ -1544,6 +1566,91 @@ body.outlook p {
                         </tr>
                       </tbody>
                     </table>
+                    <!-- Third row of data -->
+                    <table class = 'row collapse'>
+                      <tbody>
+                        <tr>
+                          <th class='small-12 large-6 columns first no-padding'>
+                            <table>
+                              <tr>
+                                <th>
+                                  <div class = 'wing level-3_l left dark'>
+                                      <table>
+                                        <tr>
+                                          <th class="small-3 large-4 columns first no-padding"><p class="text-right"><span class="wing-image-cointaner"><img src="https://image.flaticon.com/icons/svg/210/210456.svg" alt="" class='wing-image'/></span></p></th>
+                                          <th class="small-9 large-8 columns no-padding"><h2 class="text-right text-white">35%</h2></th>
+                                        </tr>
+                                      </table>
+                                    <p class="text-right text-white">vienen de la <br/> informalidad</p>
+                                  </div>
+                                </th>
+                              </tr>
+                            </table>
+                          </th>
+                          <th class='small-12 large-6 columns no-padding '>
+                            <table>
+                              <tr>
+                                <th>
+                                  <div class = 'wing level-3 right primary'>
+                                      <table>
+                                        <tr>
+                                          <th class="small-9 large-8 columns no-padding"><h2 class="text-left text-white">5,200</h2></th>
+                                          <th class="small-3 large-4 columns first no-padding"><p class="text-left"><span class="wing-image-cointaner"><img src="https://image.flaticon.com/icons/svg/660/660977.svg" alt="" class='wing-image'/></span></p></th>
+                                        </tr>
+                                      </table>
+                                    <p class="text-left text-white">clientes servidos<br/>&nbsp;</p>
+                                  </div>
+                                </th>
+                              </tr>
+                            </table>
+
+                          </th>
+                        </tr>
+                      </tbody>
+                    </table>
+                    <!-- Fourth row of data -->
+                    <table class = 'row collapse'>
+                      <tbody>
+                        <tr>
+                          <th class='small-12 large-6 columns first'>
+                            <table>
+                              <tr>
+                                <th>
+                                  <div class = 'wing level-4_l left secondary'>
+                                      <table>
+                                        <tr>
+                                          <th class="small-3 large-4 columns first no-padding"><p class="text-right"><span class="wing-image-cointaner"><img src="https://image.flaticon.com/icons/svg/599/599695.svg" alt="" class='wing-image'/></span></p></th>
+                                          <th class="small-9 large-8 columns no-padding"><h5 class="text-right text-white">600mil</h5></th>
+                                        </tr>
+                                      </table>
+                                    <p class="text-right text-white">horas de limpieza</p>
+                                  </div>
+                                </th>
+                              </tr>
+                            </table>
+                          </th>
+                          <th class='small-12 large-6 columns '>
+                            <table>
+                              <tr>
+                                <th>
+                                  <div class = 'wing level-4 right light'>
+                                      <table>
+                                        <tr>
+                                          <th class="small-9 large-8 columns no-padding"><h5 class="text-left text-white">93%</h5></th>
+                                          <th class="small-3 large-4 columns first no-padding"><p class="text-left"><span class="wing-image-cointaner"><img src="https://image.flaticon.com/icons/svg/616/616655.svg" alt="" class='wing-image'/></span></p></th>
+                                        </tr>
+                                      </table>
+                                    <p class="text-left text-white">calificaciones con 9 o 10</p>
+                                  </div>
+                                </th>
+                              </tr>
+                            </table>
+
+                          </th>
+                        </tr>
+                      </tbody>
+                    </table>
+
                     <table class="spacer">
                       <tbody>
                         <tr>
@@ -1558,7 +1665,7 @@ body.outlook p {
                             <table>
                               <tr>
                                 <th>
-                                  <h3 class="text-center">What Are You Waiting For? Get Started Today.</h3>
+                                  <h5 class="text-center">¡Mira todo lo que hicimos este año!</h5>
                                   <table class="spacer">
                                     <tbody>
                                       <tr>
@@ -1566,13 +1673,13 @@ body.outlook p {
                                       </tr>
                                     </tbody>
                                   </table>
-                                  <table class="button large expand">
+                                  <table class="button large expand success">
                                     <tr>
                                       <td>
                                         <table>
                                           <tr>
                                             <td>
-                                              <center data-parsed=""><a href="#" align="center" class="float-center">Sign Up</a></center>
+                                              <center data-parsed=""><a href="#" align="center" class="float-center">Ver impacto de Hogaru en 2017</a></center>
                                             </td>
                                           </tr>
                                         </table>
@@ -1602,34 +1709,7 @@ body.outlook p {
                                       </tr>
                                     </tbody>
                                   </table>
-                                  <p class="text-center">@copywrite nobody<br> <a href="#">hello@nocopywrite.com</a> | <a href="#">Manage Email Notifications</a> | <a href="#">Unsubscribe</a></p>
-                                  <center data-parsed="">
-                                    <table align="center" class="menu float-center">
-                                      <tr>
-                                        <td>
-                                          <table>
-                                            <tr>
-                                              <th class="menu-item float-center">
-                                                <a href="undefined"><img src="http://placehold.it/25" alt=""></a>
-                                              </th>
-                                              <th class="menu-item float-center">
-                                                <a href="undefined"><img src="http://placehold.it/25" alt=""></a>
-                                              </th>
-                                              <th class="menu-item float-center">
-                                                <a href="undefined"><img src="http://placehold.it/25" alt=""></a>
-                                              </th>
-                                              <th class="menu-item float-center">
-                                                <a href="undefined"><img src="http://placehold.it/25" alt=""></a>
-                                              </th>
-                                              <th class="menu-item float-center">
-                                                <a href="undefined"><img src="http://placehold.it/25" alt=""></a>
-                                              </th>
-                                            </tr>
-                                          </table>
-                                        </td>
-                                      </tr>
-                                    </table>
-                                  </center>
+                                  <small class="text-center">2017 @Todos los derechos reservados | Hogaru es una marca registrada de Vosavos SAS<br> <a href="#">contacto@hogaru.com</a> | <a href="#">Desuscribirse</a></small>
                                 </th>
                                 <th class="expander"></th>
                               </tr>
