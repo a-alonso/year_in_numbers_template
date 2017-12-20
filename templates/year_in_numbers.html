@@ -835,7 +835,7 @@ p,
 td,
 th,
 a {
-  color: #0a0a0a;
+  color: #3c494e;
   font-family: 'Open Sans', Helvetica, Arial, sans-serif;
   font-weight: normal;
   padding: 0;
@@ -850,7 +850,7 @@ h3,
 h4,
 h5,
 h6 {
-  color: inherit;
+  /* color: inherit; */
   word-wrap: normal;
   font-family: 'Open Sans', Helvetica, Arial, sans-serif;
   font-weight: 300;
@@ -882,7 +882,7 @@ table.body,
 p,
 td,
 th {
-  font-size: 14px;
+  font-size: 15px;
   line-height: 1.3; }
 
 p {
@@ -1364,7 +1364,7 @@ body.outlook p {
       body,
       html,
       .body {
-        background: #f3f3f3 !important;
+        background: #F4F4FB !important;
       }
     </style>
     <style type="text/css">
@@ -1377,6 +1377,57 @@ body.outlook p {
              font-weight:300;
              src:local('Open Sans'), local('OpenSans'), url('http://fonts.gstatic.com/s/opensans/v10/cJZKeOuBrn4kERxqtaUH3bO3LdcAZYWl9Si6vvxL-qU.woff') format('woff');
          }
+      }
+      /* Colour setting */
+      .bg-primary{
+        background-color: #3fbde1;
+      }
+      .bg-secondary{
+        background-color: #3876ff;
+      }
+      .bg-violet{
+        background-color: #7C2DD1;
+      }
+      .bg-warning{
+        background-color: #FFA826;
+      }
+      .text-color-grey{
+        color:#838487;
+      }
+      /* Elements */
+      .feature-info{
+        padding-top:30%;
+        padding-right:10%;
+      }
+      .feature-info_minor{
+        padding-top:15%;
+        padding-right:10%;
+      }
+      .description-info{
+        padding-top:15%;
+        padding-left:10%;
+        padding-right:15%;
+      }
+      .description-info_minor{
+        padding-top:5%;
+        padding-left:10%;
+        padding-right:15%;
+      }
+      .description__title{
+        letter-spacing: 2px;
+      }
+      .feature_row{
+        border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+      }
+      .feature-bar{
+        background-color: rgba(255, 255, 255, 0.5);
+        position: absolute;
+        bottom: 0;
+        width: 10px;
+      }
+      .feature-stats{
+        color: rgba(255, 255, 255, 0.2);
+        font-size: 10px;
       }
       /*Wings setting*/
       .wing-image{
@@ -1446,12 +1497,548 @@ body.outlook p {
       .no-padding{
         padding-bottom: 0 !important;
       }
+      .no-margin-bottom{
+        margin-bottom: 0 !important;
+      }
     </style>
 
   </head>
 
   <body>
-    <!-- <style> -->
+    <!-- <Content> -->
+    <table class="body" data-made-with-foundation="">
+      <tr>
+        <td class="float-center" align='center' valign='top'>
+          <center data-parsed=''>
+            <!-- Header -->
+            <table class="container float-center" align='center'>
+              <tbody>
+                <tr>
+                  <td>
+                    <table class="spacer">
+                      <tbody>
+                        <tr>
+                          <td height="16px" style="font-size:16px;line-height:16px;">&#xA0;</td>
+                        </tr>
+                      </tbody>
+                    </table>
+                    <table class="row">
+                      <tbody>
+                        <tr>
+                          <th class="small-12 large-12 columns first last">
+                            <table>
+                              <tr>
+                                <th>
+                                  <h1 class="text-center">2017 en resultados</h1>
+                                  <p class="text-center">Queremos compartirte lo que hemos logrado gracias a tu compromiso con la dignificación del aseo en 🇨🇴 &nbsp;Colombia 🇨🇴</p>
+                                </th>
+                                <th class="expander"></th>
+                              </tr>
+                            </table>
+                          </th>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+            <!-- Spacer between Header and content -->
+            <table class="spacer">
+              <tbody>
+                <tr>
+                  <td height="16px" style="font-size:16px;line-height:16px;">&#xA0;</td>
+                </tr>
+              </tbody>
+            </table>
+            <!-- Main content -->
+            <table class="container float-center">
+              <center data-parsed=''>
+                <!-- First KPI -->
+                <table class="container float-center">
+                  <tbody>
+                    <tr>
+                      <td>
+                        <table class="row">
+                          <tbody>
+                            <tr>
+                              <th class="columns small-8 large-7 first">
+                                <div class="description-info">
+                                  <h6 class="text-left description__title">EMPLEO<br/></h6>
+                                  <p class="text-left text-color-grey"><br/>Doblamos la cantidad de empleados respecto a 2016</p>
+                                </div>
+                              </th>
+                              <th class="columns small-4 large-5 last bg-primary">
+                                <div class="feature-info">
+                                  <h1 class="text-right text-white no-margin-bottom">560</h1>
+                                  <p class="text-right text-white">empleos directos</p>
+                                </div>
+                                <div>
+                                  <table class="row">
+                                    <tbody>
+                                      <tr>
+                                        <!-- Gap -->
+                                        <th class="columns small-5 large-6  first">&nbsp;</th>
+                                        <!-- Bar -->
+                                        <th class="columns small-1 large-1 feature_row"><div class="feature-bar" style='height:12px;'>&nbsp;</div></th>
+                                        <!-- Gap -->
+                                        <th class="columns small-3 large-3 feature_row">&nbsp;</th>
+                                        <!-- Bar -->
+                                        <th class="columns small-1 large-1 feature_row"><div class="feature-bar" style='height:24px;'>&nbsp;</div></th>
+                                        <!-- Gap -->
+                                        <th class="columns small-2 large-1 last">&nbsp;</th>
+                                      </tr>
+                                    </tbody>
+                                  </table>
+                                  <table class="row show-for-large">
+                                    <tbody>
+                                      <tr>
+                                        <!-- Gap -->
+                                        <th class="columns large-5 first">&nbsp;</th>
+                                        <!-- Bar -->
+                                        <th class="columns large-3 text-center"><small class='text-white feature-stats'>2016</small></th>
+                                        <!-- Gap -->
+                                        <th class="columns large-1 ">&nbsp;</th>
+                                        <!-- Bar -->
+                                        <th class="columns large-3 text-center"><small class='text-white feature-stats'>2017</small></th>
+                                        <!-- Gap -->
+                                        <th class="columns large-1 last">&nbsp;</th>
+                                      </tr>
+                                    </tbody>
+                                  </table>
+                                </div>
+                              </th>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+                <!-- Second KPI -->
+                <table class="spacer">
+                  <tbody>
+                    <tr>
+                      <td height="16px" style="font-size:16px;line-height:16px;">&#xA0;</td>
+                    </tr>
+                  </tbody>
+                </table>
+                <table class="container float-center">
+                  <tbody>
+                    <tr>
+                      <td>
+                        <table class="row">
+                          <tbody>
+                            <tr>
+                              <th class="columns small-8 large-7 first">
+                                <div class="description-info_minor">
+                                  <h6 class="text-left description__title">PROTECCIÓN<br/></h6>
+                                  <p class="text-left text-color-grey"><br/>Toda la familia de nuestras profesionales de limpieza cuentan con EPS y caja de compensación</p>
+                                </div>
+                              </th>
+                              <th class="columns small-4 large-5 last bg-secondary">
+                                <div class="feature-info_minor">
+                                  <h1 class="text-right text-white no-margin-bottom">1.950</h1>
+                                  <p class="text-right text-white">personas impactadas</p>
+                                </div>
+                              </th>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+                <!-- Third KPI -->
+                <table class="spacer">
+                  <tbody>
+                    <tr>
+                      <td height="16px" style="font-size:16px;line-height:16px;">&#xA0;</td>
+                    </tr>
+                  </tbody>
+                </table>
+                <table class="container float-center">
+                  <tbody>
+                    <tr>
+                      <td>
+                        <table class="row">
+                          <tbody>
+                            <tr>
+                              <th class="columns small-8 large-7 first">
+                                <div class="description-info">
+                                  <h6 class="text-left description__title">SEGURIDAD SOCIAL<br/></h6>
+                                  <p class="text-left text-color-grey"><br/>Invertimos este monto durante 2017 en que nuestras profesionales tengan los mismos derechos laborales que tú</p>
+                                </div>
+                              </th>
+                              <th class="columns small-4 large-5 last bg-violet">
+                                <div class="feature-info">
+                                  <h1 class="text-right text-white no-margin-bottom">$1.904 M</h1>
+                                  <p class="text-right text-white">millones</p>
+                                </div>
+                                <div>
+                                  <table class="row">
+                                    <tbody>
+                                      <tr>
+                                        <!-- Gap -->
+                                        <th class="columns small-5 large-6  first">&nbsp;</th>
+                                        <!-- Bar -->
+                                        <th class="columns small-1 large-1 feature_row"><div class="feature-bar" style='height:18px;'>&nbsp;</div></th>
+                                        <!-- Gap -->
+                                        <th class="columns small-3 large-3 feature_row">&nbsp;</th>
+                                        <!-- Bar -->
+                                        <th class="columns small-1 large-1 feature_row"><div class="feature-bar" style='height:24px;'>&nbsp;</div></th>
+                                        <!-- Gap -->
+                                        <th class="columns small-2 large-1 last">&nbsp;</th>
+                                      </tr>
+                                    </tbody>
+                                  </table>
+                                  <table class="row show-for-large">
+                                    <tbody>
+                                      <tr>
+                                        <!-- Gap -->
+                                        <th class="columns large-5 first">&nbsp;</th>
+                                        <!-- Bar -->
+                                        <th class="columns large-3 text-center"><small class='text-white feature-stats'>2016</small></th>
+                                        <!-- Gap -->
+                                        <th class="columns large-1 ">&nbsp;</th>
+                                        <!-- Bar -->
+                                        <th class="columns large-3 text-center"><small class='text-white feature-stats'>2017</small></th>
+                                        <!-- Gap -->
+                                        <th class="columns large-1 last">&nbsp;</th>
+                                      </tr>
+                                    </tbody>
+                                  </table>
+                                </div>
+                              </th>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+                <!-- Fourth KPI -->
+                <table class="spacer">
+                  <tbody>
+                    <tr>
+                      <td height="16px" style="font-size:16px;line-height:16px;">&#xA0;</td>
+                    </tr>
+                  </tbody>
+                </table>
+                <table class="container float-center">
+                  <tbody>
+                    <tr>
+                      <td>
+                        <table class="row">
+                          <tbody>
+                            <tr>
+                              <th class="columns small-8 large-7 first">
+                                <div class="description-info_minor">
+                                  <h6 class="text-left description__title">AYUDA<br/></h6>
+                                  <p class="text-left text-color-grey"><br/>Entregamos préstamos sin intereses para contingencias médicas y de vivienda</p>
+                                </div>
+                              </th>
+                              <th class="columns small-4 large-5 last bg-warning">
+                                <div class="feature-info_minor">
+                                  <h1 class="text-right text-white no-margin-bottom">1.780</h1>
+                                  <p class="text-right text-white">préstamos entregados</p>
+                                </div>
+                              </th>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+                <!-- Fifth KPI -->
+                <table class="spacer">
+                  <tbody>
+                    <tr>
+                      <td height="16px" style="font-size:16px;line-height:16px;">&#xA0;</td>
+                    </tr>
+                  </tbody>
+                </table>
+                <table class="container float-center">
+                  <tbody>
+                    <tr>
+                      <td>
+                        <table class="row">
+                          <tbody>
+                            <tr>
+                              <th class="columns small-8 large-7 first">
+                                <div class="description-info">
+                                  <h6 class="text-left description__title">FORMALIZACIÓN<br/></h6>
+                                  <p class="text-left text-color-grey"><br/>8 de 10 profesionales de limpieza en nuestra empresa solían trabajar informalmente o no tenían trabajo</p>
+                                </div>
+                              </th>
+                              <th class="columns small-4 large-5 last bg-primary">
+                                <div class="feature-info">
+                                  <h1 class="text-right text-white no-margin-bottom">81%</h1>
+                                  <p class="text-right text-white">personas formalizadas</p>
+                                </div>
+                                <div>
+                                  <table class="row">
+                                    <tbody>
+                                      <tr>
+                                        <!-- Gap -->
+                                        <th class="columns small-5 large-6  first">&nbsp;</th>
+                                        <!-- Bar -->
+                                        <th class="columns small-1 large-1 feature_row"><div class="feature-bar" style='height:20px;'>&nbsp;</div></th>
+                                        <!-- Gap -->
+                                        <th class="columns small-3 large-3 feature_row">&nbsp;</th>
+                                        <!-- Bar -->
+                                        <th class="columns small-1 large-1 feature_row"><div class="feature-bar" style='height:26px;'>&nbsp;</div></th>
+                                        <!-- Gap -->
+                                        <th class="columns small-2 large-1 last">&nbsp;</th>
+                                      </tr>
+                                    </tbody>
+                                  </table>
+                                  <table class="row show-for-large">
+                                    <tbody>
+                                      <tr>
+                                        <!-- Gap -->
+                                        <th class="columns large-5 first">&nbsp;</th>
+                                        <!-- Bar -->
+                                        <th class="columns large-3 text-center"><small class='text-white feature-stats'>2016</small></th>
+                                        <!-- Gap -->
+                                        <th class="columns large-1 ">&nbsp;</th>
+                                        <!-- Bar -->
+                                        <th class="columns large-3 text-center"><small class='text-white feature-stats'>2017</small></th>
+                                        <!-- Gap -->
+                                        <th class="columns large-1 last">&nbsp;</th>
+                                      </tr>
+                                    </tbody>
+                                  </table>
+                                </div>
+                              </th>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+                <!-- Sixth KPI -->
+                <table class="spacer">
+                  <tbody>
+                    <tr>
+                      <td height="16px" style="font-size:16px;line-height:16px;">&#xA0;</td>
+                    </tr>
+                  </tbody>
+                </table>
+                <table class="container float-center">
+                  <tbody>
+                    <tr>
+                      <td>
+                        <table class="row">
+                          <tbody>
+                            <tr>
+                              <th class="columns small-8 large-7 first">
+                                <div class="description-info_minor">
+                                  <h6 class="text-left description__title">CLIENTES<br/></h6>
+                                  <p class="text-left text-color-grey"><br/>Aumentamos nuestra capacidad más de cuatro veces desde 2016</p>
+                                </div>
+                              </th>
+                              <th class="columns small-4 large-5 last bg-secondary">
+                                <div class="feature-info_minor">
+                                  <h1 class="text-right text-white no-margin-bottom">5.200</h1>
+                                  <p class="text-right text-white">clientes responsables</p>
+                                </div>
+                              </th>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+                <!-- Seventh KPI -->
+                <table class="spacer">
+                  <tbody>
+                    <tr>
+                      <td height="16px" style="font-size:16px;line-height:16px;">&#xA0;</td>
+                    </tr>
+                  </tbody>
+                </table>
+                <table class="container float-center">
+                  <tbody>
+                    <tr>
+                      <td>
+                        <table class="row">
+                          <tbody>
+                            <tr>
+                              <th class="columns small-8 large-7 first">
+                                <div class="description-info">
+                                  <h6 class="text-left description__title">LIMPIEZAS<br/></h6>
+                                  <p class="text-left text-color-grey"><br/>103 años en total ahorrados a nuestros clientes, manteniendo su espacio impecable sin ninguna preocupación</p>
+                                </div>
+                              </th>
+                              <th class="columns small-4 large-5 last bg-violet">
+                                <div class="feature-info">
+                                  <h1 class="text-right text-white no-margin-bottom">894.080</h1>
+                                  <p class="text-right text-white">horas de limpieza</p>
+                                </div>
+                                <div>
+                                  <table class="row">
+                                    <tbody>
+                                      <tr>
+                                        <!-- Gap -->
+                                        <th class="columns small-5 large-6  first">&nbsp;</th>
+                                        <!-- Bar -->
+                                        <th class="columns small-1 large-1 feature_row"><div class="feature-bar" style='height:10px;'>&nbsp;</div></th>
+                                        <!-- Gap -->
+                                        <th class="columns small-3 large-3 feature_row">&nbsp;</th>
+                                        <!-- Bar -->
+                                        <th class="columns small-1 large-1 feature_row"><div class="feature-bar" style='height:15px;'>&nbsp;</div></th>
+                                        <!-- Gap -->
+                                        <th class="columns small-2 large-1 last">&nbsp;</th>
+                                      </tr>
+                                    </tbody>
+                                  </table>
+                                  <table class="row show-for-large">
+                                    <tbody>
+                                      <tr>
+                                        <!-- Gap -->
+                                        <th class="columns large-5 first">&nbsp;</th>
+                                        <!-- Bar -->
+                                        <th class="columns large-3 text-center"><small class='text-white feature-stats'>2016</small></th>
+                                        <!-- Gap -->
+                                        <th class="columns large-1 ">&nbsp;</th>
+                                        <!-- Bar -->
+                                        <th class="columns large-3 text-center"><small class='text-white feature-stats'>2017</small></th>
+                                        <!-- Gap -->
+                                        <th class="columns large-1 last">&nbsp;</th>
+                                      </tr>
+                                    </tbody>
+                                  </table>
+                                </div>
+                              </th>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+                <!-- Eight KPI -->
+                <table class="spacer">
+                  <tbody>
+                    <tr>
+                      <td height="16px" style="font-size:16px;line-height:16px;">&#xA0;</td>
+                    </tr>
+                  </tbody>
+                </table>
+                <table class="container float-center">
+                  <tbody>
+                    <tr>
+                      <td>
+                        <table class="row">
+                          <tbody>
+                            <tr>
+                              <th class="columns small-8 large-7 first">
+                                <div class="description-info_minor">
+                                  <h6 class="text-left description__title">CALIDAD<br/></h6>
+                                  <p class="text-left text-color-grey"><br/>Nuestras profesionales ostentaron una calificación promedio entre 8.5 y 9.4  </p>
+                                </div>
+                              </th>
+                              <th class="columns small-4 large-5 last bg-warning">
+                                <div class="feature-info_minor">
+                                  <h1 class="text-right text-white no-margin-bottom">34.523</h1>
+                                  <p class="text-right text-white">calificaciones con 9 o 10</p>
+                                </div>
+                              </th>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+                <!-- End of KPIs -->
+              </center>
+            </table>
+          </center>
+        </td>
+      </tr>
+    </table>
+    <table class="spacer">
+      <tbody>
+        <tr>
+          <td height="16px" style="font-size:16px;line-height:16px;">&#xA0;</td>
+        </tr>
+      </tbody>
+    </table>
+    <table class="body" data-made-with-foundation="">
+      <tr>
+        <td class="float-center" align="center" valign="top">
+          <center data-parsed=''>
+            <table align="center" class="container float-center">
+              <tbody>
+                <tr>
+                  <td>
+                    <table class="spacer">
+                      <tbody>
+                        <tr>
+                          <td height="16px" style="font-size:16px;line-height:16px;">&#xA0;</td>
+                        </tr>
+                      </tbody>
+                    </table>
+                    <table class="row">
+                      <tbody>
+                        <tr>
+                          <th class="small-12 large-12 columns first last">
+                            <p class="text-center">
+                              <br/>¡Esperamos multiplicar nuestro impacto el próximo año de tu mano como ha sido hasta ahora!</p>
+                          </th>
+                        </tr>
+                      </tbody>
+                    </table>
+                    <table class="row collapsed footer">
+                      <tbody>
+                        <tr>
+                          <th class="small-12 large-12 columns first last">
+                            <table>
+                              <tr>
+                                <th>
+                                  <table class="spacer">
+                                    <tbody>
+                                      <tr>
+                                        <td height="16px" style="font-size:16px;line-height:16px;">&#xA0;</td>
+                                      </tr>
+                                    </tbody>
+                                  </table>
+                                  <small class="text-center">2017 @Todos los derechos reservados | Hogaru es una marca registrada de Vosavos SAS<br> <a href="#">contacto@hogaru.com</a> | <a href="#">Desuscribirse</a></small>
+                                </th>
+                                <th class="expander"></th>
+                              </tr>
+                            </table>
+                          </th>
+                        </tr>
+                      </tbody>
+                    </table>
+                    <table class="spacer">
+                      <tbody>
+                        <tr>
+                          <td height="16px" style="font-size:16px;line-height:16px;">&#xA0;</td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </center>
+        </td>
+      </tr>
+    </table>
+    <table class="spacer">
+      <tbody>
+        <tr>
+          <td height="16px" style="font-size:16px;line-height:16px;">&#xA0;</td>
+        </tr>
+      </tbody>
+    </table>
     <table class="body" data-made-with-foundation="">
       <tr>
         <td class="float-center" align="center" valign="top">
@@ -1476,7 +2063,7 @@ body.outlook p {
                                 <th>
                                   <h1 class="text-center">2017 en resultados</h1>
                                   <p class="text-center">Queremos compartirte lo que hemos logrado gracias a tu compromiso con la formalización de trabajo en 🇨🇴 &nbsp;Colombia 🇨🇴
-                                    <br/> ¡Esperamos multiplicar nuestro impacto el próximo año de tu mano como ha sido hasta ahora!</p>
+                                    <br/>¡Esperamos multiplicar nuestro impacto el próximo año de tu mano como ha sido hasta ahora!</p>
                                 </th>
                                 <th class="expander"></th>
                               </tr>
