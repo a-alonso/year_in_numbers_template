@@ -836,7 +836,7 @@ p,
 td,
 th,
 a {
-  color: #3c494e;
+  color: #113870;
   font-family: 'Ubuntu', Helvetica, Arial, sans-serif;
   font-weight: normal;
   padding: 0;
@@ -1013,7 +1013,7 @@ table.button.small table tr td a:visited,
 table.button.large:hover table tr td a,
 table.button.large:active table tr td a,
 table.button.large table tr td a:visited {
-  color: #fefefe; }
+  color: #113870; }
 
 table.button.tiny table td,
 table.button.tiny table a {
@@ -1111,17 +1111,17 @@ table.button.alert:hover table a {
   border: 0 solid #e23317; }
 
 table.button.warning table td {
-  background: #ffae00;
-  border: 0px solid #ffae00; }
+  background: #FFC000;
+  border: 0px solid #FFC000; }
 
 table.button.warning table a {
-  border: 0px solid #ffae00; }
+  border: 0px solid #FFC000; }
 
 table.button.warning:hover table td {
-  background: #cc8b00; }
+  background: #ffcd33; }
 
 table.button.warning:hover table a {
-  border: 0px solid #cc8b00; }
+  border: 0px solid #ffcd33; }
 
 table.callout {
   margin-bottom: 16px;
@@ -1390,13 +1390,8 @@ body.outlook p {
         background-color: #943fe1;
         height:100%;
       }
-      .bg-violet{
-        background-color: #ff2f4c;
-        height:100%;
-      }
-      .bg-warning{
-        background-color: #5738ff;
-        height:100%;
+      .bg-yellow{
+        background-color: #FFC000;
       }
       .bg-transparent{
         background-color: transparent !important;
@@ -1502,8 +1497,8 @@ body.outlook p {
                     <table class="row">
                       <tbody>
                         <tr>
-                          <th class="columns"></th>
-                          <th class="small-10 large-10 columns first last">
+                          <th class="columns first show-for-large"></th>
+                          <th class="small-12 large-10 columns">
                             <table>
                               <tr>
                                 <th>
@@ -1521,23 +1516,13 @@ body.outlook p {
                                 <td height="16px" style="font-size:16px;line-height:16px;">&#xA0;</td>
                               </tr>
                               <tr>
-                                <th>
-                                  <table>
-                                    <tr>
-                                      <th>
-                                        <!-- Display cheesy text -->
-                                        <img class='float-center' src="http://via.placeholder.com/450x100" alt="Get connected with the largest insurance providers in the country">
-                                      </th>
-                                    </tr>
-                                  </table>
-                                </th>
-                              </tr>
-                              <tr>
-                              <tr>
                                 <td height="16px" style="font-size:16px;line-height:16px;">&#xA0;</td>
                               </tr>
+                              <tr>
                                 <th>
-                                  <h4 class="text-center text-color-blue "> <strong>HI *|F_NAME|*!</strong></h4>
+                                  <h5 class="text-center text-color-blue">GET CONTRACTED WITH <strong>ONE OF THE LARGEST INSURANCE PROVIDERS</strong> IN THE COUNTRY</h5>
+                                   <br/>
+                                  <h4 class="text-center text-color-blue "> <strong>HI *|FNAME|*!</strong></h4>
                                   <p class="text-justify text-color-grey">With almost <span class="text-weight-400">9 million members</span> in the U.S. and a network<br class='show-for-large' />that includes more than <span class="text-weight-400">400,000 health professionals</span>,
                                     <br class='show-for-large' /><span class="text-span-humana">Humana</span> is the opportunity you've been waiting for to succeed in Medicare sales.</p>
                                 </th>
@@ -1569,7 +1554,6 @@ body.outlook p {
                                       <span class="text-weight-400">Receive</span> leads and marketing materials once you achieve a good sales flow
                                     </p></li>
                                   </ul>
-                                  </p>
                                 </th>
                               </tr>
                               <tr>
@@ -1585,7 +1569,115 @@ body.outlook p {
                               </tr>
                             </table>
                           </th>
-                          <th class="columns"></th>
+                          <th class="columns show-for-large"></th>
+                        </tr>
+                      </tbody>
+                    </table>
+                    <!-- CTA -->
+                    <table class="row" align='center'>
+                      <tbody>
+                        <tr>
+                          <th class="columns first show-for-large"></th>
+                          <th class="small-12 large-6 columns">
+                            <table class="row" align='center'>
+                              <tbody>
+                                <tr>
+                                  <th class="columns small-12 first">
+                                    <table>
+                                      <tr>
+                                        <th>
+                                          <center data-parsed="">
+                                            <table class="button float-center warning expanded">
+                                              <tr>
+                                                <td>
+                                                  <table>
+                                                    <tr>
+                                                      <td><a href="#InsertMeHere">YES! <br> <span class='text-weight-300' style="font-size:12px;" >CONTRACT ME NOW</span></a></td>
+                                                    </tr>
+                                                  </table>
+                                                </td>
+                                              </tr>
+                                            </table>
+                                          </center>
+                                        </th>
+                                        <th class="expander"></th>
+                                      </tr>
+                                    </table>
+                                  </th>
+                                  <th class="columns large-4 show-for-large">&nbsp;&nbsp;&nbsp;</th>
+                                  <th class="columns small-12 large-4 last">
+                                    <table>
+                                      <tr>
+                                        <th>
+                                          <center data-parsed="">
+                                            <table class="button float-center warning expanded">
+                                              <tr>
+                                                <td>
+                                                  <table>
+                                                    <tr>
+                                                      <td><a href="#InsertMeHere">MAY BE<br> <span class='text-weight-300' style="font-size:12px;" >I NEED MORE INFO</span></a></td>
+                                                    </tr>
+                                                  </table>
+                                                </td>
+                                              </tr>
+                                            </table>
+                                          </center>
+                                        </th>
+                                        <th class="expander"></th>
+                                      </tr>
+                                    </table>
+                                  </th>
+                                </tr>
+                              </tbody>
+                            </table>
+                          </th>
+                          <th class="columns show-for-large"></th>
+                        </tr>
+                      </tbody>
+                    </table>
+                    <table align="center" class="container">
+                      <tbody>
+                        <tr>
+                          <td>
+                            <table class="row">
+                              <tbody>
+                                <tr>
+                                  <th class="large-offset-1 small-2 columns first">
+                                    <table>
+                                      <tr>
+                                        <th>
+                                          <img class="float-right" src="https://placehold.it/30" alt="please don&apos;t forget me">
+                                        </th>
+                                      </tr>
+                                    </table>
+                                  </th>
+                                  <th class="small-8 columns last">
+                                    <table>
+                                      <tr>
+                                        <th>
+                                          <h4 class="text-left text-weight-400">Did you know?</h4>
+                                        </th>
+                                      </tr>
+                                    </table>
+                                  </th>
+                                </tr>
+                              </tbody>
+                            </table>
+                            <table class="row">
+                              <tbody>
+                                <tr>
+                                  <th class="columns show-for-large"></th>
+                                  <th class="columns small-12 large-10">
+                                    <p class="text-center text-color-grey">
+                                      <span class="text-weight-400">As an agent</span>  you could earn up to <span class="text-weight-400">$ 450</span> for each new Medicare beneficiary you bring on board?
+                                    </p>
+                                  </th>
+                                  <th class="columns show-for-large"></th>
+
+                                </tr>
+                              </tbody>
+                            </table>
+                          </td>
                         </tr>
                       </tbody>
                     </table>
@@ -1593,7 +1685,7 @@ body.outlook p {
                 </tr>
               </tbody>
             </table>
-            <!-- Spacer between Header and content -->
+            <!-- Spacer between Content and Footer -->
             <table class="spacer">
               <tbody>
                 <tr>
@@ -1607,410 +1699,118 @@ body.outlook p {
                   <td height="16px" style="font-size:16px;line-height:16px;">&#xA0;</td>
                 </tr>
               </tbody>
-            </table>
-            <!-- Main content -->
-            <table class="container float-center">
-              <center data-parsed=''>
-                <!-- First KPI -->
-                <table class="container float-center">
-                  <tbody>
-                    <tr>
-                      <td>
-                        <table class="row">
-                          <tbody>
-                            <tr>
-                              <th class="columns small-12 large-7 first">
-                                <div class="description-info_minor">
-                                  <h6 class="text-left description__title">EMPLEO<br/></h6>
-                                  <p class="text-left text-color-grey"><br/>Crecimos nuestro equipo de profesionales de limpieza en un 75% respecto a 2016</p>
-                                </div>
-                              </th>
-                              <th class="columns small-12 large-5 last bg-primary">
-                                <div class="feature-info_minor">
-                                  <h1 class="text-right text-white no-margin-bottom">560</h1>
-                                  <p class="text-right text-white">empleos directos</p>
-                                </div>
-                              </th>
-                            </tr>
-                          </tbody>
-                        </table>
-                      </td>
-                    </tr>
-                  </tbody>
-                </table>
-                <!-- Second KPI -->
-                <table class="spacer">
-                  <tbody>
-                    <tr>
-                      <td height="16px" style="font-size:16px;line-height:16px;">&#xA0;</td>
-                    </tr>
-                  </tbody>
-                </table>
-                <table class="container float-center">
-                  <tbody>
-                    <tr>
-                      <td>
-                        <table class="row">
-                          <tbody>
-                            <tr>
-                              <th class="columns small-12 large-7 first">
-                                <div class="description-info_minor">
-                                  <h6 class="text-left description__title">PROTECCIÓN<br/></h6>
-                                  <p class="text-left text-color-grey"><br/>Apoyamos a las familias de nuestras profesionales de limpieza con afiliaciones a EPS y Caja de Compensación</p>
-                                </div>
-                              </th>
-                              <th class="columns small-12 large-5 last bg-secondary">
-                                <div class="feature-info_minor">
-                                  <h1 class="text-right text-white no-margin-bottom">1.950</h1>
-                                  <p class="text-right text-white">personas impactadas</p>
-                                </div>
-                              </th>
-                            </tr>
-                          </tbody>
-                        </table>
-                      </td>
-                    </tr>
-                  </tbody>
-                </table>
-                <!-- Third KPI -->
-                <table class="spacer">
-                  <tbody>
-                    <tr>
-                      <td height="16px" style="font-size:16px;line-height:16px;">&#xA0;</td>
-                    </tr>
-                  </tbody>
-                </table>
-                <table class="container float-center">
-                  <tbody>
-                    <tr>
-                      <td>
-                        <table class="row">
-                          <tbody>
-                            <tr>
-                              <th class="columns small-12 large-7 first">
-                                <div class="description-info_minor">
-                                  <h6 class="text-left description__title">SEGURIDAD SOCIAL<br/></h6>
-                                  <p class="text-left text-color-grey"><br/>Invertimos este monto en los derechos laborales de nuestras profesionales de limpieza</p>
-                                </div>
-                              </th>
-                              <th class="columns small-12 large-5 last bg-violet">
-                                <div class="feature-info_minor">
-                                  <h1 class="text-right text-white no-margin-bottom">$1.904 M</h1>
-                                  <p class="text-right text-white">millones</p>
-                                </div>
-                              </th>
-                            </tr>
-                          </tbody>
-                        </table>
-                      </td>
-                    </tr>
-                  </tbody>
-                </table>
-                <!-- Fourth KPI -->
-                <table class="spacer">
-                  <tbody>
-                    <tr>
-                      <td height="16px" style="font-size:16px;line-height:16px;">&#xA0;</td>
-                    </tr>
-                  </tbody>
-                </table>
-                <table class="container float-center">
-                  <tbody>
-                    <tr>
-                      <td>
-                        <table class="row">
-                          <tbody>
-                            <tr>
-                              <th class="columns small-12 large-7 first">
-                                <div class="description-info_minor">
-                                  <h6 class="text-left description__title">AYUDA<br/></h6>
-                                  <p class="text-left text-color-grey"><br/>Entregamos préstamos (sin intereses) para contingencias médicas, vivienda y mejora de estilo de vida</p>
-                                </div>
-                              </th>
-                              <th class="columns small-12 large-5 last bg-warning">
-                                <div class="feature-info_minor">
-                                  <h1 class="text-right text-white no-margin-bottom">1.780</h1>
-                                  <p class="text-right text-white">préstamos entregados</p>
-                                </div>
-                              </th>
-                            </tr>
-                          </tbody>
-                        </table>
-                      </td>
-                    </tr>
-                  </tbody>
-                </table>
-                <!-- Fifth KPI -->
-                <table class="spacer">
-                  <tbody>
-                    <tr>
-                      <td height="16px" style="font-size:16px;line-height:16px;">&#xA0;</td>
-                    </tr>
-                  </tbody>
-                </table>
-                <table class="container float-center">
-                  <tbody>
-                    <tr>
-                      <td>
-                        <table class="row">
-                          <tbody>
-                            <tr>
-                              <th class="columns small-12 large-7 first">
-                                <div class="description-info_minor">
-                                  <h6 class="text-left description__title">FORMALIZACIÓN<br/></h6>
-                                  <p class="text-left text-color-grey"><br/>8 de 10 profesionales de limpieza solían trabajar informalmente o no tenían trabajo antes de Hogaru.</p>
-                                </div>
-                              </th>
-                              <th class="columns small-12 large-5 last bg-primary">
-                                <div class="feature-info_minor">
-                                  <h1 class="text-right text-white no-margin-bottom">81%</h1>
-                                  <p class="text-right text-white">personas formalizadas</p>
-                                </div>
-                              </th>
-                            </tr>
-                          </tbody>
-                        </table>
-                      </td>
-                    </tr>
-                  </tbody>
-                </table>
-                <!-- Sixth KPI -->
-                <table class="spacer">
-                  <tbody>
-                    <tr>
-                      <td height="16px" style="font-size:16px;line-height:16px;">&#xA0;</td>
-                    </tr>
-                  </tbody>
-                </table>
-                <table class="container float-center">
-                  <tbody>
-                    <tr>
-                      <td>
-                        <table class="row">
-                          <tbody>
-                            <tr>
-                              <th class="columns small-12 large-7 first">
-                                <div class="description-info_minor">
-                                  <h6 class="text-left description__title">LIMPIEZAS<br/></h6>
-                                  <p class="text-left text-color-grey"><br/>Ahorramos un total de 103 años a nuestros clientes, manteniendo su espacio impecable sin preocupaciones</p>
-                                </div>
-                              </th>
-                              <th class="columns small-12 large-5 last bg-secondary">
-                                <div class="feature-info_minor">
-                                  <h1 class="text-right text-white no-margin-bottom">901.250</h1>
-                                  <p class="text-right text-white">horas de limpieza</p>
-                                </div>
-                              </th>
-                            </tr>
-                          </tbody>
-                        </table>
-                      </td>
-                    </tr>
-                  </tbody>
-                </table>
-                <!-- Seventh KPI -->
-                <table class="spacer">
-                  <tbody>
-                    <tr>
-                      <td height="16px" style="font-size:16px;line-height:16px;">&#xA0;</td>
-                    </tr>
-                  </tbody>
-                </table>
-                <table class="container float-center">
-                  <tbody>
-                    <tr>
-                      <td>
-                        <table class="row">
-                          <tbody>
-                            <tr>
-                              <th class="columns small-12 large-7 first">
-                                <div class="description-info_minor">
-                                  <h6 class="text-left description__title">CALIDAD<br/></h6>
-                                  <p class="text-left text-color-grey"><br/>Nuestras Profesionales ostentaron un promedio de 9.1 a 10</p>
-                                </div>
-                              </th>
-                              <th class="columns small-12 large-5 last bg-violet">
-                                <div class="feature-info_minor">
-                                  <h1 class="text-right text-white no-margin-bottom">34.523</h1>
-                                  <p class="text-right text-white">calificaciones con 9 o 10</p>
-                                </div>
-                              </th>
-                            </tr>
-                          </tbody>
-                        </table>
-                      </td>
-                    </tr>
-                  </tbody>
-                </table>
-                <!-- Eight KPI -->
-                <table class="spacer">
-                  <tbody>
-                    <tr>
-                      <td height="16px" style="font-size:16px;line-height:16px;">&#xA0;</td>
-                    </tr>
-                  </tbody>
-                </table>
-                <table class="container float-center">
-                  <tbody>
-                    <tr>
-                      <td>
-                        <table class="row">
-                          <tbody>
-                            <tr>
-                              <th class="columns small-12 large-7 first">
-                                <div class="description-info_minor">
-                                  <h6 class="text-left description__title">RECONOCIMIENTOS<br/></h6>
-                                  <p class="text-left text-color-grey"><br/>Este año ganamos el reconocimiento y el apoyo de grandes instituciones, como MIT, Endeavor y Y Combinator</p>
-                                </div>
-                              </th>
-                              <th class="columns small-12 large-5 last bg-warning">
-                                <div class="feature-info_minor">
-                                  <h1 class="text-right text-white no-margin-bottom">3</h1>
-                                  <p class="text-right text-white">premios</p>
-                                </div>
-                              </th>
-                            </tr>
-                          </tbody>
-                        </table>
-                      </td>
-                    </tr>
-                  </tbody>
-                </table>
-                <!-- Awards -->
-                <table class="container float-center">
-                  <tbody>
-                    <tr>
-                      <td>
-                        <table class="row">
-                          <tbody>
-                            <tr>
-                              <th class="columns small-4 first">
-                                <table class="spacer">
-                                  <tbody>
-                                    <tr>
-                                      <td height="16px" style="font-size:16px;line-height:16px;">&#xA0;</td>
-                                    </tr>
-                                  </tbody>
-                                </table>
-                                <a href="https://solve.mit.edu/challenges/women-and-technology/solutions/2657" target:'_blank'>
-                                  <img class="float-left award" src="https://www.hogaru.com/assets/talking/home_support_mit-43fb274056eca9a4fc235c2d6d59b3ba00fe712562010050c411f6e87429fe6f.png" alt="MIT">
-                                </a>
-                              </th>
-                              <th class="columns small-4 ">
-                                <table class="spacer">
-                                  <tbody>
-                                    <tr>
-                                      <td height="16px" style="font-size:16px;line-height:16px;">&#xA0;</td>
-                                    </tr>
-                                  </tbody>
-                                </table>
-                                <a href="http://endeavor.org/entrepreneurs/isp-74-brooklyn-ny/" target:'_blank'>
-                                  <img class="float-center award" src="https://www.hogaru.com/assets/talking/home_support_endeavor-576016fab319c2b20173a76d10a1ab30db0ec2381f3b07f0869acc0f5131017f.png" alt="Endeavor">
-                                </a>
-                              </th>
-                              <th class="columns small-4 last">
-                                <table class="spacer">
-                                  <tbody>
-                                    <tr>
-                                      <td height="16px" style="font-size:16px;line-height:16px;">&#xA0;</td>
-                                    </tr>
-                                  </tbody>
-                                </table>
-                                <a href="https://blog.ycombinator.com/yc-w17-launch-hogaru-elemeno-health-playment-hivy-and-bulk-mro/" target:'_blank'>
-                                  <img class="float-right award" src="https://www.hogaru.com/assets/talking/home_support_yc-10c4debee9162e326c05cb9d86738ab8070cb296b6f89111198c67d09849fad4.png" alt="Y Combinator">
-                                </a>
-                              </th>
-                            </tr>
-                          </tbody>
-                        </table>
-                      </td>
-                    </tr>
-                  </tbody>
-                </table>
-                <!-- End of KPIs -->
-              </center>
             </table>
           </center>
         </td>
       </tr>
     </table>
-    <table class="spacer">
-      <tbody>
-        <tr>
-          <td height="16px" style="font-size:16px;line-height:16px;">&#xA0;</td>
-        </tr>
-      </tbody>
-    </table>
-    <table class="spacer">
-      <tbody>
-        <tr>
-          <td height="16px" style="font-size:16px;line-height:16px;">&#xA0;</td>
-        </tr>
-      </tbody>
-    </table>
-    <table class="body" data-made-with-foundation="">
+    <table  class="wrapper header" align="center">
       <tr>
-        <td class="float-center" align="center" valign="top">
-          <center data-parsed=''>
-            <table align="center" class="container float-center">
-              <tbody>
-                <tr>
-                  <td>
-                    <table class="spacer">
-                      <tbody>
-                        <tr>
-                          <td height="16px" style="font-size:16px;line-height:16px;">&#xA0;</td>
-                        </tr>
-                      </tbody>
-                    </table>
-                    <table class="row">
-                      <tbody>
-                        <tr>
-                          <th class="small-12 large-12 columns first last">
-                            <p class="text-center">
-                              <br/>¡Con tu ayuda, multiplicaremos nuestro impacto el próximo año!</p>
-                              <br/>
-                            <h2 class="text-center">¡ GRACIAS !</h2>
-                          </th>
-                        </tr>
-                      </tbody>
-                    </table>
-                    <table class="row collapsed footer">
-                      <tbody>
-                        <tr>
-                          <th class="small-12 large-12 columns first last">
-                            <table>
+        <td class="wrapper-inner">
+          <table align="center" class="bg-transparent container">
+            <tbody>
+              <tr>
+                <td>
+                  <table class="row">
+                    <tbody>
+                      <tr>
+                        <th class="columns small-3 large-4"></th>
+                        <th class="small-6 large-4 columns first last" valign="middle">
+                          <table>
+                            <tr>
+                              <th>
+                                <img class='float-center' src="http://claroinsurance.com/medicare-campaign/img/logo-blanco.png" alt="Logo Claro Insurance">
+                              </th>
+                            </tr>
+                          </table>
+                        </th>
+                        <th class="columns small-3 large-4"></th>
+                      </tr>
+                    </tbody>
+                  </table>
+                  <table class="row">
+                    <tbody>
+                      <tr>
+                        <th class="colummns show-for-large"></th>
+                        <th class="colummns small-12 large-8">
+                          <table class="row">
+                            <tbody>
                               <tr>
-                                <th>
-                                  <table class="spacer">
+                                <th class="columns small-6 first">
+                                  <table class="row">
                                     <tbody>
                                       <tr>
-                                        <td height="16px" style="font-size:16px;line-height:16px;">&#xA0;</td>
+                                        <th class="large-offset-1 small-2 columns first">
+                                          <table>
+                                            <tr>
+                                              <th>
+                                                <img class="float-right" src="https://placehold.it/26" alt="please don&apos;t forget me">
+                                              </th>
+                                            </tr>
+                                          </table>
+                                        </th>
+                                        <th class="small-8 columns last">
+                                          <table>
+                                            <tr>
+                                              <th>
+                                                <p class="text-left text-weight-300 text-white">  <a style='color:#fff; font-size:14px;' href='tel:+15628675309'> &nbsp; 786-837-8447</a> </p>
+                                              </th>
+                                            </tr>
+                                          </table>
+                                        </th>
                                       </tr>
                                     </tbody>
                                   </table>
-                                  <small class="text-center">2017 @Todos los derechos reservados | Hogaru es una marca registrada de Vosavos SAS<br> <a href="#">contacto@hogaru.com</a> | <a href="#">Cancelar suscripción</a></small>
                                 </th>
-                                <th class="expander"></th>
+                                <th class="columns small-6 lasts">
+                                  <table class="row">
+                                    <tbody>
+                                      <tr>
+                                        <th class="large-offset-1 small-2 columns first">
+                                          <table>
+                                            <tr>
+                                              <th>
+                                                <img class="float-right" src="https://placehold.it/26" alt="please don&apos;t forget me">
+                                              </th>
+                                            </tr>
+                                          </table>
+                                        </th>
+                                        <th class="small-8 columns last">
+                                          <table>
+                                            <tr>
+                                              <th>
+                                                <p class="text-left text-weight-300 text-white">  <a style='color:#fff; font-size:14px;' href='tel:+15628675309'> &nbsp; 7392 NW 35th Ter Ste.303</a> </p>
+                                              </th>
+                                            </tr>
+                                          </table>
+                                        </th>
+                                      </tr>
+                                    </tbody>
+                                  </table>
+                                </th>
                               </tr>
-                            </table>
-                          </th>
-                        </tr>
-                      </tbody>
-                    </table>
-                    <table class="spacer">
-                      <tbody>
-                        <tr>
-                          <td height="16px" style="font-size:16px;line-height:16px;">&#xA0;</td>
-                        </tr>
-                      </tbody>
-                    </table>
-                  </td>
-                </tr>
-              </tbody>
-            </table>
-
-          </center>
+                            </tbody>
+                          </table>
+                        </th>
+                        <th class="colummns show-for-large"></th>
+                      </tr>
+                    </tbody>
+                  </table>
+                  <table class="row">
+                    <tbody>
+                      <tr>
+                        <th class="columns"></th>
+                        <th class="columns">
+                          <p class="text-center" style='color:#fff; font-size:14px;'><a href="#InsertMeHere" style='color:#fff;'>Unsubscribe from emails</a> | <a href="#InsertMeHere" style='color:#fff;'>Update subscription preferences</a></p>
+                        </th>
+                        <th class="columns"></th>
+                      </tr>
+                    </tbody>
+                  </table>
+                </td>
+              </tr>
+            </tbody>
+          </table>
         </td>
       </tr>
     </table>
